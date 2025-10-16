@@ -34,9 +34,9 @@ print("-------------------------------------------\n"
 #
 # Write your code below:
 
-# for i in range(5):
-#     print(f"This is message {i + 1}")
-#     i + 1
+for i in range(5):
+    print(f"This is message {i + 1}")
+    i + 1
 
 
 # Task 2: Counting with for loops
@@ -80,10 +80,10 @@ print("-------------------------------------------\n"
 #
 # Write your code below:
 
-# rpt = int(input("How many times would you like the message repeated?:\n"))
+rpt = int(input("How many times would you like the message repeated?:\n"))
 
-# for i in range(rpt):
-#     print(f"This is message no.{i+1}")
+for i in range(rpt):
+    print(f"This is message no.{i+1}")
 
 # -------------------------------------------
 # Submitting Your Work (after Tasks 1–3)
@@ -122,10 +122,10 @@ print("-------------------------------------------\n"
 
 # Write your code below:
 
-# slctn = input("Enter a word:\n")
+slctn = input("Enter a word:\n")
 
-# for i in slctn:
-#     print(i)
+for i in slctn:
+    print(i)
 
 # Extension 2:
 # -------------------------------------------
@@ -138,10 +138,10 @@ print("-------------------------------------------\n"
 
 # Write your code below:
 
-# num = int(input("Enter a number:\n"))
-# print("")
-# for i in range(0, num, 2):
-#     print(i)
+num = int(input("Enter a number:\n"))
+print("")
+for i in range(0, num, 2):
+    print(i)
 
 # Extension 3 (a bit harder):
 # -------------------------------------------
@@ -164,13 +164,13 @@ print("-------------------------------------------\n"
 
 # Write your code below:
 
-# slctn = input("Enter a word:\n")
+slctn = input("Enter a word:\n")
 
-# print("")
-# for i in slctn:
-#     if i == " ":
-#         continue
-#     print(i)
+print("")
+for i in slctn:
+    if i == " ":
+        continue
+    print(i)
 
 # -------------------------------------------
 # ADVANCED ACTIVITY
@@ -193,11 +193,11 @@ print("-------------------------------------------\n"
 
 # Write your code below:
 
-# num = int(input("Choose a number:\n"))
+num = int(input("Choose a number:\n"))
 
-# for i in range(1, 11):
-#     print(f"{num} * {i} = {num*i}")
-#     print("")
+for i in range(1, 11):
+    print(f"{num} * {i} = {num*i}")
+    print("")
 
 # -------------------------------------------
 # Submitting Your Work (after Extensions & Advanced)
